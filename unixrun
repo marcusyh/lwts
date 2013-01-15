@@ -1,0 +1,20 @@
+#!/bin/sh
+
+app_path= 
+
+if [ -L "$0" ]
+then
+    app_path=$(dirname -- "$(readlink -m -- "$0")")
+else
+    app_path=$(dirname -- "$0")
+fi
+
+cd -P -- "$app_path"
+
+if [ "$1" = "-s" -o "$1" = "-S" ]
+then
+    /usr/bin/php "`pwd -P`/lwts_clock/main.php" -s
+else
+    /usr/bin/php "`pwd -P`/lwts_clock/main.php"
+fi
+

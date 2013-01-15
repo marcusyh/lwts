@@ -1,0 +1,12 @@
+# Set the length of life to calculate how many times left.Set the born year of the life to calculate how many times passed and how many years left.
+life = 1985 60 person1
+
+# Set the task and time shedule.
+#
+#yearcycle = yy-yy 
+#
+#weekcycle = yy-yy ww-ww
+#
+#daycycle  = yy-ww yy-ww dd-dd tt-tt
+#
+#taskcycle = yy-ww-dd yy-ww-dd tt-tt

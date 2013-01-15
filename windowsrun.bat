@@ -1,0 +1,1 @@
+"C:\Program Files\PHP\php.exe" "lwts_clock\main.php"
